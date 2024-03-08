@@ -22,3 +22,9 @@ variable "environment" {
 variable "zone_name" {
   default = "techytrees.online"
 }
+variable "app_version" {
+  
+}
+variable "iam_instance_profile" {
+  default = "project_role"
+}
